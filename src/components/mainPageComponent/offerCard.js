@@ -35,12 +35,10 @@ export default function SingleLineGridList() {
      <GridList className={classes.gridList} >
         {OfferData.map((tile) => (
             <Paper key={tile.img} style={{height:'100px',elevation:'0'}} >
-           <a href="/category"> 
-           <img src={tile.img} alt={tile.title} style={{borderRadius:'450px',height:'50%',marginTop:'5%',marginBottom:'5%'}}/>
+           <img src={tile.img} alt={tile.title} style={{marginTop:'5%',marginBottom:'3%'}}/>
             <Typography style={{color:'black'}}>
                 {tile.title}
             </Typography>
-           </a>
           </Paper>
 
         ))}
