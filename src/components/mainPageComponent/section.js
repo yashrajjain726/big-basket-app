@@ -43,7 +43,7 @@ export default function AutoGrid() {
       <Grid item xs={6} md={6} lg={6}className={classes.cardsize}>
         <Paper className={classes.root} elevation={0}>
         <CardActionArea>
-        <img className={classes.img} src={section1}style={{marginBottom:'10%'}}/>
+        <img className={classes.img} src={section1}style={{marginBottom:'10%'}} alt=""/>
         </CardActionArea>
         </Paper>
       </Grid>
@@ -52,7 +52,7 @@ export default function AutoGrid() {
         <CardActionArea>
 
        
-        <img className={classes.img} src={section2}style={{marginBottom:'10%'}}/>
+        <img className={classes.img} src={section2}style={{marginBottom:'10%'}} alt=""/>
 
         </CardActionArea>
         </Paper>
@@ -60,7 +60,7 @@ export default function AutoGrid() {
         <CardActionArea>
 
 
-        <img className={classes.img} src={section3}style={{marginBottom:'10%'}}/>
+        <img className={classes.img} src={section3}style={{marginBottom:'10%'}} alt=""/>
 
         </CardActionArea>
         </Paper>
@@ -70,12 +70,12 @@ export default function AutoGrid() {
       
         <Paper className={classes.root} elevation={0}>
         <CardActionArea>
-        <img className={classes.img} src={section5} style={{marginBottom:'10%'}}/>
+        <img className={classes.img} src={section5} style={{marginBottom:'10%'}} alt=""/>
         </CardActionArea>
         </Paper>     
         <Paper className={classes.root} elevation={0}>
         <CardActionArea>
-        <img className={classes.img} src={section4} style={{marginBottom:'10%'}}/>
+        <img className={classes.img} src={section4} style={{marginBottom:'10%'}} alt=""/>
 
         </CardActionArea>
         </Paper>  

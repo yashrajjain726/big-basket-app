@@ -21,7 +21,7 @@ class Main extends Component {
                  <OfferCard/>
                  
                 <ProductCard/> 
-                <LowerBanner/>
+                <LowerBanner/> 
                 <BankOffer/>
                 <ProductCard/> 
                 <Popular/>
